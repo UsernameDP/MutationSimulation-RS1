@@ -1,0 +1,36 @@
+body::-webkit-scrollbar{
+    display:none;
+}
+
+#main{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#canvas{
+    background-color: black;
+}
+#data{
+    padding: 10px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#data header{
+    justify-content: initial !important;
+    align-items: initial !important;
+}
+
+span{
+    border-radius: 10px;
+    border: 2px solid black;
+}

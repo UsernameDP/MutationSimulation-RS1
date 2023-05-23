@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/main.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Mutation Animation</title>
+  </head>
+
+  <body>
+    <div id="titleScreen"></div>
+
+    <div id="main">
+      <canvas id="canvas"></canvas>
+      <header>
+        Welcome to Mutation Simulations
+        <button onclick="main()">DO NOT CLICK</button>
+      </header>
+      <div id="data">
+        <p id="timeDisplay"></p>
+        <header>
+          OffSprings
+          <span contenteditable="true"></span>
+        </header>
+        <header>
+          Size
+          <span contenteditable="true"></span>
+        </header>
+        <header>
+          Sense
+          <span contenteditable="true"></span>
+        </header>
+        <header>
+          Stamina
+          <span contenteditable="true"></span>
+        </header>
+        <header>
+          Population
+          <span contenteditable="true"></span>
+        </header>
+      </div>
+    </div>
+  </body>
+
+  <script type="module" src="Javascript/main.js"></script>
+  <script type="module">
+    import main from "./Javascript/main.js";
+
+    main(60);
+  </script>
+</html>

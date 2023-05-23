@@ -1,0 +1,5 @@
+Todo:
+
+Prey should be able to dodge predator
+different types of sensing
+decayed creatures should give more food than just plant foods
